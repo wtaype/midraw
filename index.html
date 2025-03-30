@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang='es' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<meta content='blogger' name='generator'/>
+<meta content='website' property='og:type'/>
+<meta content='MiDraw - Painter pro ' property='og:title'/>
+<meta content='https://midraw.blogspot.com/' property='og:url'/>
+<meta content='index' property='og:pageType'/>
+<meta content='Midraw es una aplicación de dibujo web que permite crear y editar imágenes directamente en el navegador.' name='description'/>
+<link href='https://midraw.blogspot.com/feeds/posts/default?alt=rss' rel='alternate' title='MiDraw - Painter pro  - RSS' type='application/rss+xml'/>
+<link href='https://www.blogger.com/feeds/7209768286404563606/posts/default' rel='service.post' title='MiDraw - Painter pro  - Atom' type='application/atom+xml'/>
+<link href='https://midraw.blogspot.com/' rel='canonical'/>
+<link href='https://midraw.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='https://midraw.blogspot.com/favicon.ico' rel='icon' sizes='192x192'/>
+<link href='https://midraw.blogspot.com/favicon.ico' rel='apple-touch-icon'/>
+<title>MiDraw - Painter pro </title>
+<style id='page-skin-1' type='text/css'><!--
+:root{--fz_s1:.62vw;--fz_s2:.67vw;--fz_s3:.72vw;--fz_s4:.77vw;--fz_m:.8vw;--fz_m1:.85vw;--fz_m2:.9vw;--fz_m3:.95vw;--fz_l:1.0;--fz_l1:1.07vw;--fz_l2:1.15vw;--fz_l3:1.2vw;--fz_t1:1.73vw;--fz_t2:2.30vw;--ff_P:'Poppins',segoe ui;--ff_R:'Rubik',segoe ui;--F:#fff;--0:#000;--D:#ddd;--ok:#3cd741;--wr:#ff3849;--bn:#00a8e6;--bsh:0 4px 6px rgba(0,0,0,0.1);}:root[data-theme="Cielo"]{--bg:#ccefff;--wb:#e5f7ff;--tx:#000;--txa:#FFF;--txe:#000;--txh:#1978d7;--bdr:#66d6ff;--mco:#1978d7;--svg:#1978d7;--bxs:#b8ecff;--bga:#166bc0;--hv:#00a8e6;--hva:#1873cd;}:root[data-theme="Dulce"]{--bg:#ffccd1;--wb:#ffebed;--tx:#000;--txa:#FFF;--txe:#000;--txh:#ff3849;--bdr:#ff99a1;--mco:#ff3849;--svg:#ff3849;--bxs:#ffdbde;--bga:#ff3849;--hv:#ff7a85;--hva:#ff3849;}:root[data-theme="Paz"]{--bg:#ccffce;--wb:#ebffeb;--tx:#000;--txa:#FFF;--txe:#000;--txh:#25b62a;--bdr:#96e99a;--mco:#25b62a;--svg:#25b62a;--bxs:#c0f2c2;--bga:#00b300;--hv:#3cd741;--hva:#25b62a;}:root[data-theme="Mora"]{--bg:#e4ccff;--wb:#f4ebff;--tx:#000;--txa:#FFF;--txe:#000;--txh:#6a00f5;--bdr:#c799ff;--mco:#6a00f5;--svg:#6a00f5;--bxs:#ebdbff;--bga:#5800cc;--hv:#9442ff;--hva:#5f00db;}:root[data-theme="Futuro"]{--bg:#1d273f;--wb:#2a385b;--tx:#fff;--txa:#00f3ff;--txe:#3e496f;--txh:#00f3ff;--bdr:#007980;--mco:#3e496f;--svg:#00f3ff;--bxs:none;--bga:#3d5185;--hv:#4d5a89;--hva:#3e496f;}.mthemes{right:10vh;bottom:-2vh;position:fixed;display:flex;}.tema{width:var(--fz_t1);height:var(--fz_t2);display:flex}.tema:hover,.mtha{width:var(--fz_t2);transition:.5s ease-in-out;border-radius:.3vw .3vw 0 0;}.abwc{background:var(--wb);top:0;width:99%;height:100%;padding:2vh 2vw;overflow:scroll;line-height:1.80;}.abwok{background:var(--mco);color:var(--txa);}*::-webkit-scrollbar{width:.4vw}*::-webkit-scrollbar-track{background:var(--hv)}*::-webkit-scrollbar-thumb{background:var(--hva);border-radius:.1vw}*{margin:0;padding:0;color:var(--tx);box-sizing:border-box;scroll-behavior:smooth;font-size:var(--fz_m);font-family:var(--ff_P)}body{height:100vh;background:var(--bg);}.txc,h1{text-align:center}.psr{position:relative}.psa{position:absolute}.dfw{display:flex;justify-content:space-between;align-items:center;gap:1vh;}.dfc,nav a,.oph{display:flex;align-items:center;justify-content:center;gap:.5vh}.dfd{display:flex;flex-direction:column;gap:.7vh;}.dfwc{display:flex;justify-content:space-between;flex-direction:column;align-items:center;}.dfch{display:flex;justify-content:center;gap:1vh;}.dfcv{display:flex;align-items:center;gap:1vh;}.dfhc{display:flex;align-items:center;flex-direction:column;gap:1vh;}.dfcc{display:flex;flex-direction:column;align-items:center;gap:.5vh;}.oph{gap:.5vh;font-size:var(--fz_s2);}.dfa{display:flex;justify-content:center;align-items:center;gap:.5vh;}.dfa>*{flex:1 1 auto}.dfaw,.hcon{display:flex;flex-wrap:wrap;justify-content:center;}.dfaw>*,.hcon>*{flex:1 1 auto;}.dpn,[type="checkbox"],[type="radio"]{display:none}.dpb,.miha{display:block}.dpf{display:flex}h1{font-weight:800;color:var(--txh);padding-block:0 1vh;letter-spacing:.08vw;font-size:var(--fz_l1);text-shadow:0.1vh 0.1vw 0.1vh var(--bg);}a{text-decoration:none}button,input,textarea,select{border:none;outline:none}button{padding:.7vh 1.5vw;border-radius:.5vh;background:var(--hv);color:var(--txa);}button:hover,.bta,.dbtx:hover{cursor:pointer;transform:translateY(-.4vh) scale(1.02);transition:all .5s ease-in-out;background:var(--hva);}.wdp{margin:auto;max-width:90vw;}input,textarea{color:var(--txe)}input{padding:.6vh 1vh;border-radius:.25vw;border:.05vw solid var(--bg);box-shadow:0 0.06vw 0.15vw var(--hv);}input:focus,.txed:focus{outline:.05vw solid var(--hv);}textarea,img{max-width:100%;}.txe{width:100%;min-height:26vh;min-width:100%;border-radius:.5vh;padding:1vh 1.2vh;font-size:var(--fz_m);line-height:1.20;font-family:var(--ff_R);letter-spacing:.02vw;overflow-x:auto;background:var(--F);margin-block:0 .7vh;border:.05vw solid var(--hv);}.txe:hover{box-shadow:0.2vw 0.3vw 0.4vw 0.2vh var(--bg);transform:translateY(-.1vh) scale(1.003);transition:.3s ease-in-out;}.df{display:flex}.df3,.mtoo{display:flex;flex-wrap:wrap;gap:1vh;}.df3>*,.mtoo>*{flex:1 1 32%;}.dg{display:grid}.dgg{display:grid;gap:1vh;}.wi{width:var(--fz_s2);fill:var(--svg)}.nva{width:100%;gap:0;}.bth{color:var(--txa);padding-block:1vh;background:var(--hv);}.bth:hover,.btha{color:var(--txa);background:var(--hva);transition:.3s ease-in-out;}.nva a:first-child{border-radius:.5vh 0 0 0;}.nva a:last-child{border-radius:0 .5vh 0 0;}nav{gap:0;}textarea{width:100%;min-height:26vh;min-width:100%;border-radius:.5vh;padding:1vh 1.2vh;font-size:var(--fz_m);line-height:1.18vw;font-family:var(--ff_R);letter-spacing:.02vw;overflow-x:auto;background:var(--F);margin-block:0 .7vh;border:.05vw solid var(--hv);}textarea:hover{box-shadow:0.2vw 0.3vw 0.4vw 0.2vh var(--bg);transform:translateY(-.1vh) scale(1.003);transition:.3s ease-in-out;}th,td{border:.05vw solid var(--hv);}.ok,.ok .wi{color:var(--ok);fill:var(--ok)}.wr{color:var(--wr)}.bn{color:var(--bn)}.hmz{display:grid;grid-template-columns:78vw auto;gap:1vh;}.hma{background:var(--F);}.wb,.box{padding:.5vh;border-radius:.3vh;background:var(--F);box-shadow:-0.4vh 0.4vh 0.2vh #0000001a;}.box{height:20vh;padding:1vh;}.foo{padding-block:.5vh;padding-bottom:2.6vh;}.foo *{font-size:var(--fz_s2);margin-inline:.3vh;}.mibox{height:85.4vh;}.box{flex:1 1 auto;}.hmx input{width:4vw;text-align:center;}.cvtl{gap:1vh;}select{padding:0.5rem 1rem;border:2px solid var(--mco);border-radius:5px;background-color:white;font-size:1rem;cursor:pointer;}.cvpi,.cvtx{padding:1vh 1.3vh;box-shadow:var(--bsh);border-radius:.3vw;}.sbx{padding-block:.5vh;}.cvcp{padding:1vh 2vh;margin-inline:.2vh;border-radius:.4vh;box-shadow:var(--bsh);}#colorPicker{padding:0;margin:0 .3vh;}@media (max-width:770px){:root{--fz_s1:1.12vw;--fz_s2:1.27vw;--fz_s3:1.32vw;--fz_s4:1.47vw;--fz_m:1.5vw;--fz_m1:1.55vw;--fz_m2:1.60vw;--fz_m3:1.65vw;--fz_l:1.70vw;--fz_l1:1.75vw;--fz_l2:1.80vw;--fz_l3:1.85vw;--fz_t1:2.30vw;--fz_t2:3.30vw;}}@media (max-width:570px){:root{--fz_s1:2.12vw;--fz_s2:2.27vw;--fz_s3:2.32vw;--fz_s4:2.47vw;--fz_m:2.50vw;--fz_m1:2.55vw;--fz_m2:2.6vw;--fz_m3:2.65vw;--fz_l:2.70vw;--fz_l1:2.75vw;--fz_l2:2.80vw;--fz_l3:2.85vw;--fz_t1:3.30vw;--fz_t2:4.30vw;}*{cursor:auto}.miwb{max-width:96vw}}
+
+--></style>
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+
+</head>
+<body>
+<!--DIOS ES BUENO[START V11 7209768286404563606 https://wtaype.github.io/midraw ]-->
+<div class='miwb hmz'>
+<!-- PREVIEW CONTENIDOS -->
+<main class='hma wb txc'>
+<canvas height='930' id='canvas' width='1490'></canvas>
+</main>
+<!-- OPCIONES DE MAIN-->
+<div class='hmx dfd'>
+<header class='hd wb'><h1>Midraw Painter Pro!</h1></header>
+<div class='mibox dfd psr'>
+<div class='box box1'>
+<div class='cvtl dfaw'>
+<button class='tool-btn' data-tool='selection'>Selección</button>
+<button class='tool-btn active' data-tool='brush'>Pincel</button>
+<button class='tool-btn' data-tool='rectangle'>Rectángulo</button>
+<button class='tool-btn' data-tool='semi-rectangle'>Semi Rectángulo</button>
+<button class='tool-btn' data-tool='semi-round'>Rect. Redondeado</button>
+<button class='tool-btn' data-tool='circle'>Círculo</button>
+<button class='tool-btn' data-tool='text'>Texto</button>
+<button class='cvbs' id='undoBtn'>Deshacer</button>
+</div>
+</div>
+<div class='box box2'>
+<div class='cvin dfd'>
+<div class='sbx sbxa'>
+<label>Pincel: <input id='brushSize' type='text' value='5'/></label>
+<span class='cvpi' data-cvin='10'>10</span>
+<span class='cvpi' data-cvin='20'>20</span>
+<span class='cvpi' data-cvin='50'>50</span>
+<span class='cvpi' data-cvin='100'>100</span>
+<span class='cvpi' data-cvin='500'>500</span>
+</div>
+<div class='sbx sbxb'>
+<label>Color: <input id='colorPicker' type='color' value='#1976d2'/></label>
+<span class='cvcp' data-cvin='#1976d2' style='background:#1976d2'></span>
+<span class='cvcp' data-cvin='#00b300' style='background:#00b300'></span>
+<span class='cvcp' data-cvin='#ffeb3b' style='background:#ffeb3b'></span>
+<span class='cvcp' data-cvin='#88ddff' style='background:#88ddff'></span>
+<span class='cvcp' data-cvin='#ffffff' style='background:#ffffff'></span>
+</div>
+<div class='sbx sbxc'>
+<label>Texto: <input id='textSize' type='text' value='20'/></label>
+<span class='cvtx' data-cvin='10'>10</span>
+<span class='cvtx' data-cvin='15'>15</span>
+<span class='cvtx' data-cvin='20'>20</span>
+<span class='cvtx' data-cvin='50'>50</span>
+<span class='cvtx' data-cvin='100'>100</span>
+<div class='dpn' contenteditable='true' id='textInput'></div>
+</div>
+</div>
+</div>
+<div class='box box3'>
+<label>Fuente:
+        <select id='fontFamily'>
+<option value='Arial'>Arial</option>
+<option value='Verdana'>Verdana</option>
+<option value='Poppins'>Poppins</option>
+<option value='Rubik'>Rubik</option>
+<option value='Impact'>Impact</option>
+<option value='Arial Black'>Arial Black</option>
+</select>
+</label>
+</div>
+<div class='box box4'>
+<div class='cvtl dfaw'>
+<button id='copyBtn'>Copiar</button>
+<button id='clearBtn'>Limpiar</button>
+<button id='saveBtn'>Guardar Web</button>
+<button class='cvbs' id='downloadBtn'>Descargar</button>
+</div>
+</div>
+<div class='abwc psa dpn dfcc'>
+<b>Acerca de Midraw</b>
+<p>Midraw es una aplicación de dibujo web que permite crear y editar imágenes directamente en el navegador. Ofrece herramientas como pincel, formas geométricas, texto y selección para facilitar la creación artística. Desarrollada por <a class='ftx lkme' href='https://wtaype.github.io/' target='_blank'>@wilder.taype</a>, Midraw combina funcionalidad y simplicidad con características avanzadas como capas, deshacer/rehacer, y guardado local.</p>
+<p>Algunas características destacadas:</p>
+<ul>
+<li>Herramientas variadas: pincel, rectángulos, círculos y texto</li>
+<li>Selección y manipulación de elementos</li>
+<li>Guardado automático en almacenamiento local</li>
+<li>Atajos de teclado para mayor productividad</li>
+<li>Soporte para copiar y pegar imágenes</li>
+</ul>
+<p><a href='https://wtaype.github.io/midraw/v1/' target='_blank'>v1 - Versión Inicial</a></p>
+<b>Política de Privacidad y Seguridad</b>
+<p>En Midraw, priorizamos la privacidad y seguridad de nuestros usuarios. Toda la aplicación funciona directamente en el navegador, evitando la necesidad de enviar datos a servidores externos. No recopilamos información personal ni utilizamos cookies de rastreo. Solo empleamos almacenamiento local para guardar sus dibujos y preferencias, asegurando así una experiencia segura y personalizada. Sus creaciones permanecen en su dispositivo y no se comparten con terceros.</p>
+<button aria-label='ENTENDIDO' class='abwok bts'>ENTENDIDO</button>
+</div>
+</div>
+<footer class='foo wb txc'>
+<span>Creado con<span class='wicon wi-corazon'></span>by @wilder.taype 2024 -</span><span class='wty'></span><span class='abw'>| Acerca del app |</span><span>actualizado:</span><span class='wtu' id='7209768286404563606'>
+</span>
+</footer>
+</div>
+</div>
+<!--DIOS ES BUENO SIEMPRE[END]-->
+<div class='no-items section' id='foooo' name='foooo'></div>
+<script>
+function mijQuery(){window.jQuery&&window.$&&!window.done?(window.done=1,$(function(){ 
+//DIOS ES PROTECTOR - RECURSOS [START MIJQUERY] 
+let wicon ="https://cdn.jsdelivr.net/gh/wtaype/wicon@v2.28/wicon.min.js";
+let hticanvas ="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js";
+let mstyles = '@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700&display=swap"); ';
+$('head').append(`<style>${mstyles}</style><script src="${wicon}"><\/script><script src="${hticanvas}"><\/script>`);
+//MI LOCALSTORAGE 
+function savels(key,value,hours){localStorage.setItem(key,JSON.stringify({value:value,expiry:Date.now()+hours*3600000}))};function getls(key){var item=JSON.parse(localStorage.getItem(key));if(!item||Date.now()>item.expiry){localStorage.removeItem(key);return null}return item.value};function removels(key){localStorage.removeItem(key)};
+function gosave(nm,vl){$(window).on('beforeunload',()=> savels(nm,vl,168))} //gosave('fondo', $('html').attr('style')) 
+function getsave(sv,fn){const mvl=getls(sv);if (mvl) fn(mvl)}//getsave('stema',(vl)=> $('body').addClass(vl));
+function gosaves(se,attr,fn){$(window).on('beforeunload',function(){$(se).each(function(){savels($(this).attr(attr),fn($(this)),168);})})}//gosaves('input','id',($e)=> $e.val());
+function getsaves(se,attr,fn){$(se).each(function(){const val=getls($(this).attr(attr));if(val)fn($(this),val);})}//getsaves('input','id',($e,v)=> $e.val(v));
+// FUNCIONES GENIALES 
+$('.wty').text(new Date().getFullYear()); //Obtener el año 
+$('.wtu').text(new Date().toLocaleString()); //Tiempo de actulización 
+$('.abw,.abwok').click(()=>$('.abwc').toggleClass('dpn')); //AcercaWeb
+function adrm(se,cl){$(se).addClass(cl).siblings().removeClass(cl)}//adrm(se,cl)
+function adtc(se,cl){$(se).addClass(cl);setTimeout(()=>{$(se).removeClass(cl)},3000)}//adtc(se,cl) 
+function adtx(se,tx){let o=$(se).text();$(se).text(tx).delay(1800).queue(q=>$(se).text(o).dequeue())}//adtx(se,tx)
+function adtm(se,cl,txi,txf,tm){$(se).html(txi).addClass(cl).delay(tm).queue(q=>$(se).html(txf).removeClass(cl).dequeue())}//adtm(se,cl,txi,txf,tm)
+function detm(...funs){const tm=funs.pop();setTimeout(()=>{funs.forEach(fn=>fn())},tm)} //detm(tame,tamr, 500); 
+// GOOO CON FUNCIONES 
+
+$(function(){
+  // Elementos y contextos principales
+  const $canvas = $('#canvas'), 
+        canvas = $canvas[0], 
+        ctx = canvas.getContext('2d'),
+        $textInput = $('#textInput');
+  
+  // Crear contextos auxiliares
+  function createContext() {
+    const c = document.createElement('canvas');
+    c.width = canvas.width;
+    c.height = canvas.height;
+    return c.getContext('2d');
+  }
+  
+  const mainCtx = createContext(), 
+        previewCtx = createContext(), 
+        selectionCtx = createContext();
+  
+  // Estado de la aplicación
+  const state = {
+    isDrawing: false,
+    tool: 'brush',
+    color: $('#colorPicker').val() || '#1976d2',
+    brushSize: parseInt($('#brushSize').val()) || 5,
+    textSize: parseInt($('#textSize').val()) || 20,
+    fontFamily: $('#fontFamily').val() || 'Poppins',
+    undoStack: [],
+    selection: null,
+    isTransforming: false,
+    isAddingText: false,
+    startX: 0,
+    startY: 0
+  };
+  
+  // Atajos de teclado
+  const shortcuts = {b:'brush', a:'selection', r:'rectangle', s:'semi-rectangle', u:'semi-round', c:'circle', t:'text'};
+  
+  // Obtener posición del mouse con precisión mejorada
+  function getMousePos(e) {
+    const rect = canvas.getBoundingClientRect();
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+    const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+    const scaleX = canvas.width / rect.width;
+    const scaleY = canvas.height / rect.height;
+    return { 
+      x: Math.round((clientX - rect.left) * scaleX), 
+      y: Math.round((clientY - rect.top) * scaleY) 
+    };
+  }
+  
+  // Guardar estado para deshacer
+  function saveState() {
+    state.undoStack.push(mainCtx.canvas.toDataURL());
+  }
+  
+  // Actualizar canvas principal
+  function updateCanvas() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(mainCtx.canvas, 0, 0);
+    if (state.selection) ctx.drawImage(selectionCtx.canvas, 0, 0);
+    ctx.drawImage(previewCtx.canvas, 0, 0);
+  }
+  
+  // Configurar contexto de dibujo
+  function configureContext(context) {
+    context.strokeStyle = state.color;
+    context.fillStyle = state.color;
+    context.lineWidth = state.brushSize;
+    context.lineCap = 'round';
+    context.lineJoin = 'round';
+  }
+  
+  // Deseleccionar
+  function deselect() {
+    state.selection = null;
+    selectionCtx.clearRect(0, 0, canvas.width, canvas.height);
+    updateCanvas();
+  }
+  
+  // Iniciar dibujo
+  function startDrawing(e) {
+    if (state.isAddingText) return finalizeText();
+    
+    const pos = getMousePos(e);
+    state.startX = pos.x;
+    state.startY = pos.y;
+    
+    if (state.tool === 'selection' && !state.isTransforming) {
+      state.isDrawing = true;
+      selectionCtx.clearRect(0, 0, canvas.width, canvas.height);
+      state.selection = null;
+    } else if (state.tool === 'text' && !state.isTransforming) {
+      handleTextTool(pos.x, pos.y);
+    } else if (!state.isTransforming) {
+      state.isDrawing = true;
+      if (state.tool === 'brush') {
+        mainCtx.beginPath();
+        mainCtx.moveTo(pos.x, pos.y);
+        configureContext(mainCtx);
+      }
+    }
+  }
+  
+  // Continuar dibujo
+  function draw(e) {
+    if (!state.isDrawing || state.isTransforming || state.isAddingText) return;
+    
+    const pos = getMousePos(e);
+    
+    const actions = {
+      'selection': () => drawSelectionRect(pos),
+      'brush': () => {
+        mainCtx.lineTo(pos.x, pos.y);
+        mainCtx.stroke();
+      },
+      'rectangle': () => drawShape(pos, false),
+      'semi-rectangle': () => drawShape(pos, true),
+      'semi-round': () => drawRoundedRectangle(pos),
+      'circle': () => drawCircle(pos)
+    };
+    
+    actions[state.tool]?.();
+    updateCanvas();
+  }
+  
+  // Finalizar dibujo
+  function stopDrawing() {
+    if (!state.isDrawing || state.isTransforming || state.isAddingText) return;
+    
+    if (state.tool !== 'brush' && state.tool !== 'text') {
+      mainCtx.drawImage(previewCtx.canvas, 0, 0);
+      previewCtx.clearRect(0, 0, canvas.width, canvas.height);
+    }
+    
+    state.isDrawing = false;
+    saveState();
+    updateCanvas();
+  }
+  
+  // Dibujar rectángulo de selección
+  function drawSelectionRect(pos) {
+    selectionCtx.clearRect(0, 0, canvas.width, canvas.height);
+    selectionCtx.setLineDash([6]);
+    selectionCtx.strokeStyle = 'blue';
+    selectionCtx.lineWidth = 1;
+    
+    const width = pos.x - state.startX;
+    const height = pos.y - state.startY;
+    
+    selectionCtx.strokeRect(state.startX, state.startY, width, height);
+    state.selection = { x: state.startX, y: state.startY, width, height };
+  }
+  
+  // Dibujar formas rectangulares
+  function drawShape(pos, semi) {
+    previewCtx.clearRect(0, 0, canvas.width, canvas.height);
+    configureContext(previewCtx);
+    
+    const width = pos.x - state.startX;
+    const height = pos.y - state.startY;
+    
+    if (semi) {
+      previewCtx.fillStyle = `${state.color}80`;
+      previewCtx.fillRect(state.startX, state.startY, width, height);
+    }
+    
+    previewCtx.strokeRect(state.startX, state.startY, width, height);
+  }
+  
+  // Dibujar rectángulo redondeado
+  function drawRoundedRectangle(pos) {
+    previewCtx.clearRect(0, 0, canvas.width, canvas.height);
+    configureContext(previewCtx);
+    
+    const width = pos.x - state.startX;
+    const height = pos.y - state.startY;
+    
+    previewCtx.beginPath();
+    if (previewCtx.roundRect) {
+      previewCtx.roundRect(state.startX, state.startY, width, height, 5);
+    } else {
+      previewCtx.rect(state.startX, state.startY, width, height);
+    }
+    
+    previewCtx.fillStyle = `${state.color}80`;
+    previewCtx.fill();
+    previewCtx.stroke();
+  }
+  
+  // Dibujar círculo
+  function drawCircle(pos) {
+    previewCtx.clearRect(0, 0, canvas.width, canvas.height);
+    configureContext(previewCtx);
+    
+    const radius = Math.hypot(pos.x - state.startX, pos.y - state.startY);
+    
+    previewCtx.beginPath();
+    previewCtx.arc(state.startX, state.startY, radius, 0, Math.PI * 2);
+    previewCtx.stroke();
+  }
+  
+  // Herramienta de texto
+  function handleTextTool(x, y) {
+    state.isAddingText = true;
+    
+    $textInput.css({
+      display: 'block',
+      left: x,
+      top: y,
+      color: state.color,
+      'font-size': `${state.textSize}px`,
+      'font-family': state.fontFamily,
+      position: 'absolute',
+      border: '1px dashed #000',
+      padding: '5px',
+      background: 'transparent',
+      outline: 'none',
+      'white-space': 'pre-wrap',
+      'word-wrap': 'break-word',
+      'overflow-wrap': 'break-word'
+    }).focus().text('');
+    
+    let isDragging = false, offset = { x: 0, y: 0 };
+    
+    $textInput.on('mousedown', e => {
+      isDragging = true;
+      offset.x = e.pageX - $textInput.position().left;
+      offset.y = e.pageY - $textInput.position().top;
+      e.stopPropagation();
+    });
+    
+    $(document).on('mousemove.textInput', e => {
+      if (isDragging) {
+        $textInput.css({ 
+          left: e.pageX - offset.x, 
+          top: e.pageY - offset.y 
+        });
+      }
+    }).on('mouseup.textInput', () => isDragging = false);
+  }
+  
+  // Finalizar texto
+  function finalizeText() {
+    if (!state.isAddingText) return;
+    
+    const text = $textInput.text().trim();
+    
+    if (text) {
+      const position = $textInput.position();
+      mainCtx.font = `${state.textSize}px ${state.fontFamily}`;
+      mainCtx.fillStyle = state.color;
+      mainCtx.textBaseline = 'top';
+      
+      const maxWidth = $textInput.width();
+      const lineHeight = state.textSize * 1.2;
+      const lines = text.split('\n');
+      let y = position.top;
+      
+      lines.forEach(lineText => {
+        const words = lineText.split(' ');
+        let line = '';
+        
+        words.forEach(word => {
+          const testLine = `${line}${word} `;
+          if (mainCtx.measureText(testLine).width > maxWidth && line) {
+            mainCtx.fillText(line, position.left, y);
+            line = `${word} `;
+            y += lineHeight;
+          } else {
+            line = testLine;
+          }
+        });
+        
+        mainCtx.fillText(line, position.left, y);
+        y += lineHeight;
+      });
+      
+      saveState();
+      updateCanvas();
+    }
+    
+    $textInput.hide().off('mousedown').css({ width: '', height: '' });
+    $(document).off('.textInput');
+    state.isAddingText = false;
+  }
+  
+  // Mover selección
+  function handleMove() {
+    if (!state.selection) return;
+    
+    const { x, y, width, height } = state.selection;
+    const imageData = mainCtx.getImageData(x, y, width, height);
+    
+    state.isTransforming = true;
+    let offsetX = 0, offsetY = 0;
+    
+    function onMouseMove(e) {
+      const pos = getMousePos(e);
+      offsetX = pos.x - state.startX;
+      offsetY = pos.y - state.startY;
+      
+      previewCtx.clearRect(0, 0, canvas.width, canvas.height);
+      previewCtx.putImageData(imageData, x + offsetX, y + offsetY);
+      updateCanvas();
+    }
+    
+    function onMouseUp() {
+      mainCtx.clearRect(x, y, width, height);
+      mainCtx.putImageData(imageData, x + offsetX, y + offsetY);
+      
+      $canvas.off('mousemove', onMouseMove).off('mouseup', onMouseUp);
+      previewCtx.clearRect(0, 0, canvas.width, canvas.height);
+      
+      state.isTransforming = false;
+      state.selection = null;
+      saveState();
+      updateCanvas();
+    }
+    
+    $canvas.on('mousemove', onMouseMove).on('mouseup', onMouseUp);
+  }
+  
+  // Duplicar selección
+  function handleDuplicate() {
+    if (!state.selection) return;
+    
+    const { x, y, width, height } = state.selection;
+    const imageData = mainCtx.getImageData(x, y, width, height);
+    
+    let destX = x + width + 20, destY = y;
+    
+    if (destX + width > canvas.width) {
+      destX = x;
+      destY = y + height + 20;
+      if (destY + height > canvas.height) {
+        destX = x - width - 20;
+        destY = y;
+        if (destX < 0) {
+          destX = x;
+          destY = y - height - 20;
+          if (destY < 0) {
+            destX = x;
+            destY = y + 20;
+          }
+        }
+      }
+    }
+    
+    mainCtx.putImageData(imageData, destX, destY);
+    saveState();
+    updateCanvas();
+  }
+  
+  // Deshacer
+  function handleUndo() {
+    if (state.undoStack.length > 1) {
+      state.undoStack.pop();
+      const img = new Image();
+      img.onload = () => {
+        mainCtx.clearRect(0, 0, canvas.width, canvas.height);
+        mainCtx.drawImage(img, 0, 0);
+        updateCanvas();
+      };
+      img.src = state.undoStack[state.undoStack.length - 1];
+    }
+  }
+  
+  // Limpiar canvas
+  function handleClear() {
+    if (confirm('&#191;Estás seguro de que quieres limpiar el canvas?')) {
+      mainCtx.clearRect(0, 0, canvas.width, canvas.height);
+      mainCtx.fillStyle = '#FFFFFF';
+      mainCtx.fillRect(0, 0, canvas.width, canvas.height);
+      state.undoStack = [];
+      saveState();
+      updateCanvas();
+      removels('savedCanvas');
+      adtx('#clearBtn', 'Limpiado', 'Limpiar');
+    }
+  }
+  
+  // Guardar en localStorage
+  function handleSave() {
+    const canvasData = mainCtx.canvas.toDataURL('image/png');
+    savels('savedCanvas', canvasData, 24);
+    alert('El dibujo ha sido guardado y almacenado localmente.');
+    adtx('#saveBtn', 'Guardado', 'Guardar');
+  }
+  
+  // Descargar imagen
+  function handleDownload() {
+    const link = document.createElement('a');
+    link.download = 'painter-drawing.png';
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+  }
+  
+  // Copiar al portapapeles
+  function handleCopy() {
+    canvas.toBlob(blob => {
+      const item = new ClipboardItem({ 'image/png': blob });
+      navigator.clipboard.write([item]);
+    });
+    adtx('#copyBtn', 'Copiado', 'Copiar');
+  }
+  
+  // Pegar desde portapapeles
+  async function handleClipboardPaste() {
+    try {
+      const [clipboardItem] = await navigator.clipboard.read();
+      const imageType = clipboardItem?.types.find(type => type.startsWith('image/'));
+      
+      if (!imageType) return alert('Oh no, No hay imágenes');
+      
+      const blob = await clipboardItem.getType(imageType);
+      const img = new Image();
+      
+      img.onload = () => {
+        const x = (canvas.width - img.width) / 2;
+        const y = (canvas.height - img.height) / 2;
+        mainCtx.drawImage(img, x, y);
+        saveState();
+        updateCanvas();
+        URL.revokeObjectURL(img.src);
+      };
+      
+      img.src = URL.createObjectURL(blob);
+    } catch (error) {
+      console.error('Error con portapapeles:', error);
+      alert('Permitir opción pegar desde portapapeles.');
+    }
+  }
+  
+  // Inicializar canvas
+  function initializeCanvas() {
+    const savedCanvasData = getls('savedCanvas');
+    
+    if (savedCanvasData) {
+      const img = new Image();
+      img.onload = () => {
+        mainCtx.drawImage(img, 0, 0);
+        saveState();
+        updateCanvas();
+      };
+      img.src = savedCanvasData;
+    } else {
+      mainCtx.fillStyle = '#FFFFFF';
+      mainCtx.fillRect(0, 0, canvas.width, canvas.height);
+      saveState();
+      updateCanvas();
+    }
+  }
+  
+  // Configurar eventos
+  function initEvents() {
+    // Eventos del canvas con soporte táctil
+    $canvas.on({
+      'mousedown touchstart': e => {
+        e.preventDefault();
+        startDrawing(e.originalEvent || e);
+      },
+      'mousemove touchmove': e => {
+        e.preventDefault();
+        draw(e.originalEvent || e);
+      },
+      'mouseup touchend mouseout touchcancel': () => stopDrawing()
+    });
+    
+    // Eventos de botones de herramientas
+    $('.tool-btn').on('click', function() {
+      if (state.isAddingText) finalizeText();
+      $('.tool-btn').removeClass('active');
+      $(this).addClass('active');
+      state.tool = $(this).data('tool');
+      state.isDrawing = state.isTransforming = false;
+      deselect();
+    });
+    
+    // Eventos de inputs
+    $('#brushSize').on('input', e => state.brushSize = parseInt(e.target.value) || 5);
+    $('#textSize').on('input', e => {
+      state.textSize = parseInt(e.target.value) || 20;
+      $textInput.css('font-size', `${state.textSize}px`);
+    });
+    $('#colorPicker').on('input', e => {
+      state.color = e.target.value;
+      $textInput.css('color', state.color);
+    });
+    $('#fontFamily').on('change', e => {
+      state.fontFamily = e.target.value;
+      $textInput.css('font-family', state.fontFamily);
+    });
+    
+    // Eventos de botones de acción
+    $('#undoBtn').on('click', handleUndo);
+    $('#clearBtn').on('click', handleClear);
+    $('#saveBtn').on('click', handleSave);
+    $('#downloadBtn').on('click', handleDownload);
+    $('#copyBtn').on('click', handleCopy);
+    
+    // Atajos de teclado
+    $(document).on('keydown', async e => {
+      if (/INPUT|SELECT|TEXTAREA/.test(e.target.tagName) || e.target.isContentEditable) return;
+      
+      const key = e.key.toLowerCase();
+      
+      // Mapa de atajos
+      if (e.ctrlKey && e.shiftKey && key === 's') {
+        e.preventDefault();
+        handleDownload();
+      } else if (e.ctrlKey && key === 's') {
+        e.preventDefault();
+        handleSave();
+      } else if (e.ctrlKey && key === 'm') {
+        e.preventDefault();
+        $('.tool-btn[data-tool="selection"]').click();
+      } else if (e.ctrlKey && key === 'd') {
+        e.preventDefault();
+        deselect();
+      } else if (!e.ctrlKey && key === 'm') {
+        e.preventDefault();
+        handleMove();
+      } else if (!e.ctrlKey && key === 'd') {
+        e.preventDefault();
+        handleDuplicate();
+      } else if (e.ctrlKey && key === 'z') {
+        e.preventDefault();
+        handleUndo();
+      } else if (e.ctrlKey && key === 'c') {
+        e.preventDefault();
+        handleCopy();
+      } else if (e.ctrlKey && key === 'v') {
+        e.preventDefault();
+        await handleClipboardPaste();
+      } else if (shortcuts[key]) {
+        e.preventDefault();
+        $(`.tool-btn[data-tool="${shortcuts[key]}"]`).click();
+      }
+    });
+    
+    // Eventos de texto
+    $textInput.on('keydown', e => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        finalizeText();
+      }
+    });
+    
+    $(document).on('mousedown', e => {
+      if (state.isAddingText && !$(e.target).closest('#textInput').length && state.tool !== 'text') {
+        finalizeText();
+      }
+    });
+    
+    // Eventos de presets
+    $('.cvpi, .cvtx, .cvcp').on('click', e => {
+      const value = $(e.target).data('cvin');
+      
+      if ($(e.target).hasClass('cvpi')) {
+        state.brushSize = parseInt(value);
+        $('#brushSize').val(value);
+      } else if ($(e.target).hasClass('cvtx')) {
+        state.textSize = parseInt(value);
+        $('#textSize').val(value);
+      } else if ($(e.target).hasClass('cvcp')) {
+        state.color = value;
+        $('#colorPicker').val(value);
+      }
+    });
+  }
+  
+  // Inicializar la aplicación
+  initializeCanvas();
+  initEvents();
+});
+  
+//DIOS ES PROTECTOR [END MIJQUERY] 
+})):setTimeout(mijQuery,50)}let lQt=7000,lQv=0,lQz=!localStorage.getItem('wquery');lQz?(["scroll","mousemove"].forEach(e=>addEventListener(e,ldjQuery)),setTimeout(ldjQuery,lQt)):ldjQuery();function ldjQuery(){if(!lQv){lQv=1;lQz&&["scroll","mousemove"].forEach(e=>removeEventListener(e,ldjQuery));let s=document.createElement("script");s.src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js";s.onload=()=>{localStorage.setItem("wquery","wiii");mijQuery()};document.head.appendChild(s)}}
+//THEMES WEB[START]
+const mthemas=[{tnm:"Cielo",co:"#0EBEFF"},{tnm:"Dulce",co:"#FF5C69"},{tnm:"Paz",co:"#29C72E"},{tnm:"Mora",co:"#7000FF"},{tnm:"Futuro",co:"#21273B"}];const thcon=document.createElement('div');thcon.className='mthemes';mthemas.forEach(({tnm,co})=>{const tdv=document.createElement('div');tdv.className='tema';tdv.dataset.tema=`${tnm}|${co}`;tdv.style.background=co;tdv.onclick=()=>mithm(tdv);thcon.appendChild(tdv);});document.body.appendChild(thcon);const mithm=e=>{const [th,tco]=e.dataset.tema.split('|');document.documentElement.dataset.theme=th;(document.querySelector('meta[name="theme-color"]')||Object.assign(document.head.appendChild(document.createElement('meta')),{name:'theme-color'})).content=tco;localStorage.mtheme=e.dataset.tema;document.querySelector('.mtha')?.classList.remove('mtha');e.classList.add('mtha');};const thsved=document.querySelector(`[data-tema="${localStorage.mtheme}"]`)||thcon.firstChild;if(thsved)mithm(thsved);
+</script>
+
+</body>
+</html>
